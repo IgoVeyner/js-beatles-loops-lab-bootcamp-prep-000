@@ -27,7 +27,7 @@ function iLoveTheBeatles(num){
   let i = 0;
   var yeah = [];
   do{
-    yeah[i]="I Love the Beatles!"
+    yeah[i]="I Love the Beatles!";
     i++;
   }while(i<num);
 }
