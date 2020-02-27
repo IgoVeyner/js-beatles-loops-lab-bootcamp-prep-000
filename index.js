@@ -30,4 +30,5 @@ function iLoveTheBeatles(num){
     yeah[i]="I Love the Beatles!";
     i++;
   }while(i<num);
+  return yeah;
 }
