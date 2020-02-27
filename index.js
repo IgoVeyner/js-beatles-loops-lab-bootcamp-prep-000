@@ -23,6 +23,10 @@ function johnLennonFacts(facts){
   return facts;
 }
 
-function iLoveTheBeatles(){
-  
+function iLoveTheBeatles(num){
+  let i = 0;
+  do{
+    
+    i++;
+  }while(i<num);
 }
