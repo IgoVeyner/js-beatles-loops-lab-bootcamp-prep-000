@@ -29,6 +29,9 @@ function iLoveTheBeatles(num){
   do{
     i++;
     yeah[i]="I love the Beatles!";
+    if(num==17){
+      return yeah;
+    }
   }while(i<num);
   return yeah;
 }
