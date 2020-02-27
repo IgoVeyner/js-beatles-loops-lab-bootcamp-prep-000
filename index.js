@@ -1,7 +1,7 @@
 // add solution here
 function theBeatlesPlay(musicians, instruments){
   var plays = [];
-  for(var i=0;i<musicians.length;i++){
+  for(let i=0;i<musicians.length;i++){
     plays[i]= musicians[i] + " plays " + instruments[i];
   }
   return plays;
@@ -15,5 +15,5 @@ const facts = [
   ];
   
 function johnLennonFacts(facts){
-  while()
+  while(let i=0)
 }
